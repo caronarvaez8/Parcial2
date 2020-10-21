@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Requistro";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Registrate para poder usar nuestra pagina web</p><br>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        .padre {
+        background: #B2D6F3;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .hijo {
+        background: #B2D6F3;
+        width: 250px;
+        justify-content: center;
+
+        }
+    </style>
+</head>
+
+<div class="padre">
+
+    <body>
+
+        <div class="hijo">
+            <form asp-controller="Home" asp-action="Privacy" method="GET">
+
+                <label for="username">Usuario</label><br>
+                <input type="text" placeholder="Escribir el nombre" name="username"><br>
+
+                <label for="Correo">Correo</label><br>
+                <input type="Correo" placeholder="Escribir el correo" name="email"><br>
+
+                <label for="password">Contraseña</label><br>
+                <input type="password" placeholder="Escribir la contraseña" name="password"><br>
+
+                <label for="password">Confirmar Contraseña</label><br>
+                <input type="password" placeholder="Escribir la contraseña" name="cpassword"><br><br>
+                <input type="submit" value="Crear cuenta"><br>
+
+            </form>
+        </div>
+        <div>
+            @ViewBag.Message
+        </div>
+    </body>
+
+
+</div>

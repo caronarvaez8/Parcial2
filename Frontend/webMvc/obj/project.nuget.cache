@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QidNXpVnwpXyR45BY8l6vM3Ir1Z/74NWn+OK+lzueXYjh1K5vNLpRexx05DweDTv3cKDVhG4Z6nMPxqNdEhhRw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Carolina\\Desktop\\webMvc\\webMvc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carolina\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
